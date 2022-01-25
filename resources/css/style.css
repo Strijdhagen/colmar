@@ -55,8 +55,52 @@ h2{
 }
 
 .s1rc {
-  display: flex ;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 24px;
+}
+
+.s2{
+  display:flex ;
+  padding-left: 24px;
+}
+
+.s2lc {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.s2rc {
+  display: flex ;
+  padding-left: 24px;
+  flex-direction: column ;
+}
+
+.courses{
+  display: flex;
+}
+
+.s2rc img {
+  height: auto;
+}
+
+.coursest {
+  display: flex ;
+  flex-direction: column;
+  width: 65%;
+  }
+
+.s3b {
+
+  display: flex;
+/*  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.s3bgrid{
+  display:flex;
+  flex-direction: column ;
 }
